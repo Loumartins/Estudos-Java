@@ -16,6 +16,7 @@ public class Aula07Array02 {
         for(int i = 0; i<nomes.length ; i++) {
             System.out.println(nomes[i]);
         }
+        System.out.println("--------------------");
 
         String[] tasks = new String[3];
         tasks[0] = "Dormir cedo";
