@@ -13,6 +13,7 @@ class ObterProximoDiaUtil implements TemporalAdjuster{
         DayOfWeek dayOfWeek = DayOfWeek.of(temporal.get(ChronoField.DAY_OF_WEEK));
         int addDays;
         switch (dayOfWeek){
+            // No exercicio, os dias uteis são de Segunda - Feira à Quinta - Feira
             case THURSDAY: addDays = 4; break;
             case FRIDAY : addDays = 3;break;
             case SATURDAY: addDays = 2;break;
